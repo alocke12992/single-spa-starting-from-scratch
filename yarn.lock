@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@uirouter/core@5.0.19":
+  version "5.0.19"
+  resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-5.0.19.tgz#fe2888190393a8c92584c354e65ab8322c1b0db4"
+
 "@webassemblyjs/ast@1.5.12":
   version "1.5.12"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.5.12.tgz#a9acbcb3f25333c4edfa1fdf3186b1ccf64e6664"
@@ -175,6 +179,16 @@ ajv@^6.1.0:
 alphanum-sort@^1.0.1, alphanum-sort@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
+
+angular-ui-router@^1.0.18:
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/angular-ui-router/-/angular-ui-router-1.0.18.tgz#afc5c2d97d4fc54315db9cb638849cbffcc0a62c"
+  dependencies:
+    "@uirouter/core" "5.0.19"
+
+angular@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/angular/-/angular-1.7.1.tgz#274bd432e3c8b321f41c25c79e20d4f3b0fbaf79"
 
 ansi-escapes@^3.0.0:
   version "3.1.0"
@@ -4336,6 +4350,10 @@ shebang-regex@^1.0.0:
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
+
+single-spa-angular1@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/single-spa-angular1/-/single-spa-angular1-2.7.0.tgz#365d70d02c61dfca18cd15ea8c87343f765ad98a"
 
 single-spa-react@^2.5.4:
   version "2.5.4"
