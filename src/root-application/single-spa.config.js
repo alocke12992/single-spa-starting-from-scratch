@@ -1,13 +1,6 @@
-// root-application/single-spa-config.js
-import { registerApplication, start } from 'single-spa'
+import { registerApplication, start } from 'single-spa';
 
-registerApplication(
-  // Name of our single-spa application
-  'home',
-  // Our loading function
-  () => import('../home/home.app.js'),
-  // Our activity function
-  () => location.pathname === "" || location.pathname === "/"
-);
+registerApplication('navBar', () => import('../navBar/navBar.app.js'), () => true);
+registerApplication('home', () => import('../home/home.app.js'), () => location.pathname === "" || location.pathname === "/");
 
-start()
+start();
