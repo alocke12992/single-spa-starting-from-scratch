@@ -7,7 +7,7 @@ module.exports = {
   mode: 'development',
   entry: {
     // Set the single-spa config as the project entry point
-    'single-spa.config': 'src/root-application/single-spa.config.js',
+    'single-spa.config': 'single-spa.config.js',
   },
   output: {
     publicPath: '/dist/',
