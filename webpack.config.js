@@ -45,14 +45,7 @@ module.exports = {
   },
   plugins: [
     // A webpack plugin to remove/clean the build folder(s) before building
-    new CleanWebpackPlugin(['dist']),
-    // Webpack plugin that allows you to override the inferred information
-    // the angular core context is restricted to files within the src directory
-    // I AM HONESTLY NOT SURE IF THIS ^ IS CORRECT 
-    new ContextReplacementPlugin(
-      /(.+)?angular(\\|\/)core(.+)?/,
-      path.resolve(__dirname, '../src')
-    )
+    new CleanWebpackPlugin(['dist'])
   ],
   devtool: 'source-map',
   externals: [],
