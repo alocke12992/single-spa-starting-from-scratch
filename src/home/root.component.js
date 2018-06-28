@@ -20,7 +20,7 @@ import {
 }
 */
 
-const Home = () => (
+const AnimationExample = () => (
   <Router>
     <Route
       render={({ location }) => (
@@ -140,4 +140,4 @@ styles.rgb = {
   fontSize: "30px"
 };
 
-export default Home;
+export default AnimationExample;

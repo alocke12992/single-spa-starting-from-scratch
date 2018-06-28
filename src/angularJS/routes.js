@@ -13,7 +13,7 @@ angular
 
     $stateProvider
       .state('root', {
-        url: '/angular1',
+        url: '/angularJS',
         template: '<root />',
       })
 

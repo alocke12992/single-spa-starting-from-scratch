@@ -9,7 +9,7 @@ const NavBar = () => (
         <li><a href="/" onClick={navigateToUrl}>Home</a></li>
         <li><a href="/react" onClick={navigateToUrl}>React</a></li>
         {/* Note that we still need to build our AngularJS App before this link will work */}
-        <li><a href="/angular1" onClick={navigateToUrl}>Angular1</a></li>
+        <li><a href="/angularJS" onClick={navigateToUrl}>AngularJS</a></li>
       </ul>
     </div>
   </nav>

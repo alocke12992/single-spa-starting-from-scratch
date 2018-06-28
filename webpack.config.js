@@ -27,7 +27,7 @@ module.exports = {
         loader: 'babel-loader',
       },
       {
-        // This plugin will allow us to use html templates when we get to the angular1 app 
+        // This plugin will allow us to use html templates when we get to the angularJS app 
         test: /\.html$/,
         exclude: /node_modules/,
         loader: 'html-loader',

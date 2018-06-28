@@ -1,12 +1,12 @@
-import singleSpaAngular1 from 'single-spa-angular1';
+import singleSpaAngularJS from 'single-spa-angularjs';
 import angular from 'angular';
 import './app.module.js'
 import './routes.js';
 
-// domElementGetter is required by single-spa-angular1
-const domElementGetter = () => document.getElementById('angular1');
+// domElementGetter is required by single-spa-angularJS
+const domElementGetter = () => document.getElementById('angularJS');
 
-const angularLifecycles = singleSpaAngular1({
+const angularLifecycles = singleSpaAngularJS({
   angular,
   domElementGetter,
   mainAngularModule: 'angularJS-app',
