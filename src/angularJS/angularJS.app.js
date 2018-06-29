@@ -3,7 +3,7 @@ import angular from 'angular';
 import './app.module.js'
 import './routes.js';
 
-// domElementGetter is required by single-spa-angularJS
+// domElementGetter is required by single-spa-angularjs
 const domElementGetter = () => document.getElementById('angularJS');
 
 const angularLifecycles = singleSpaAngularJS({
