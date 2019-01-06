@@ -1,21 +1,14 @@
 {
   "presets": [
-    [
-      "env",
-      {
-        "targets": {
-          "browsers": [
-            "last 2 versions"
-          ]
-        }
+    ["@babel/preset-env", {
+      "targets": {
+        "browsers": ["last 2 versions"]
       }
-    ],
-    [
-      "react"
-    ]
+    }],
+    ["@babel/preset-react"]
   ],
   "plugins": [
-    "syntax-dynamic-import",
-    "transform-object-rest-spread"
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-proposal-object-rest-spread"
   ]
 }
